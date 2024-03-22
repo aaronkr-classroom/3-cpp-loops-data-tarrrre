@@ -2,7 +2,7 @@
 
 
 int main() {
-	using std::cin;
+	using std::cin;  
 	using std::cout;
 	using std::endl;
 	int i;
@@ -11,11 +11,8 @@ int main() {
 	cin >> j;
 	cin >> i;
 
-	if (i > j) {
-		cout << "i";
-	}
-	else {
-		cout << ""j;
-	}
-	return 0;
+	if (i > j)
+		cout << i;
+	else
+		cout << j;
 }
